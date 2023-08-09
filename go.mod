@@ -1,6 +1,6 @@
 module gitee.com/baixudong/readability
 
-go 1.20
+go 1.21.0
 
 require (
 	gitee.com/baixudong/cmd v0.0.0-20230726070323-804eb7c40e4f
@@ -15,10 +15,11 @@ require (
 	github.com/andybalholm/brotli v1.0.5 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421 // indirect
+	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
+	github.com/stretchr/testify v1.8.4 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
-	github.com/tidwall/pretty v1.2.0 // indirect
+	github.com/tidwall/pretty v1.2.1 // indirect
 	golang.org/x/image v0.10.0 // indirect
 	golang.org/x/net v0.13.0 // indirect
 	golang.org/x/text v0.11.0 // indirect
