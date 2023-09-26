@@ -3,8 +3,8 @@ package readability
 import (
 	"context"
 
+	"gitee.com/baixudong/bson"
 	"gitee.com/baixudong/cmd"
-	"github.com/tidwall/gjson"
 
 	_ "embed"
 )
@@ -33,7 +33,7 @@ func NewClient(ctx context.Context) (*Client, error) {
 	return &Client{cmd: cli}, err
 }
 
-func (obj *Client) Parse(url, content string, options ...ParseOption) (gjson.Result, error) {
+func (obj *Client) Parse(url, content string, options ...ParseOption) (*bson.Client, error) {
 	var option ParseOption
 	if len(options) > 0 {
 		option = options[0]
