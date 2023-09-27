@@ -3,8 +3,8 @@ module gitee.com/baixudong/readability
 go 1.21.1
 
 require (
-	gitee.com/baixudong/bson v0.0.0-20230926055556-209f126c0a34
-	gitee.com/baixudong/cmd v0.0.0-20230923032707-64c8c7b5dcbd
+	gitee.com/baixudong/cmd v0.0.0-20230927062716-a12c59720791
+	gitee.com/baixudong/gson v0.0.0-20230927054719-a259dd672035
 )
 
 require (

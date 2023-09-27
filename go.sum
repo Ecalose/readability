@@ -1,9 +1,9 @@
-gitee.com/baixudong/bson v0.0.0-20230926055556-209f126c0a34 h1:s3VYx86Nh3khU3m2AbgYVCHPkA8M1Q2RsWLuI1YsxNM=
-gitee.com/baixudong/bson v0.0.0-20230926055556-209f126c0a34/go.mod h1:dPr7kBl98n0KQ4pseNdKjUWSI5Bz+0Cow9w2PJvYXJ4=
-gitee.com/baixudong/cmd v0.0.0-20230923032707-64c8c7b5dcbd h1:UblyF49rn8P0NO2huY2Zsmyx/khj/SicTKe2I10GLSw=
-gitee.com/baixudong/cmd v0.0.0-20230923032707-64c8c7b5dcbd/go.mod h1:jbpHcpbiyJlkpgiSFkO7Y/aGH/Xlt9uaJRP/bxgqXMs=
+gitee.com/baixudong/cmd v0.0.0-20230927062716-a12c59720791 h1:igmWLjEdqml+LguFdgQtBwPJ7Bv9TrPSn/QSRNmbTQ8=
+gitee.com/baixudong/cmd v0.0.0-20230927062716-a12c59720791/go.mod h1:KgSPXZ03IWFY1axcFSgwMQ+keQTYRPdeKva1/Iyvvbs=
 gitee.com/baixudong/conf v0.0.0-20230923032133-1841ef7949dc h1:soRRRcAQDqD6+/xOb+QZB5LORnr/0Bfrw1eSjrY5RCU=
 gitee.com/baixudong/conf v0.0.0-20230923032133-1841ef7949dc/go.mod h1:7pkXM7MiQj3tu09SJ+M3TzczatotsAizuA2pL6JrWHA=
+gitee.com/baixudong/gson v0.0.0-20230927054719-a259dd672035 h1:QE2dgoo2l491fl5UwADXEKz/QEhwcSauzy8IgrIzd0M=
+gitee.com/baixudong/gson v0.0.0-20230927054719-a259dd672035/go.mod h1:4CvQFvuGOT5ZOTHao1004v91EOvQGy8UinMl9Nna+7c=
 gitee.com/baixudong/kinds v0.0.0-20230809033013-c3d6d3479f8c h1:MZewpjU0+82TcA+nHrcAbbgZhTCqVH2I5zwYBWJ4v54=
 gitee.com/baixudong/kinds v0.0.0-20230809033013-c3d6d3479f8c/go.mod h1:J3r4FWnZOMgk7/1EWEEDaPQnx5uH4OLCRzpTOyKg5cA=
 gitee.com/baixudong/re v0.0.0-20230809033040-360c1d945e59 h1:HtdoUzBIqepeVTeeZ0QcPKoQSDqgWQn/fs84fsByJv0=
@@ -16,8 +16,9 @@ github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSs
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/golang/snappy v0.0.1/go.mod h1:/XxbfmMg8lxefKM7IXC3fBNl/7bRcc72aCRzEWrmP2Q=
-github.com/google/go-cmp v0.5.2 h1:X2ev0eStA3AbceY54o37/0PQ/UWqKEiiO2dKL5OPaFM=
 github.com/google/go-cmp v0.5.2/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
+github.com/google/go-cmp v0.5.9 h1:O2Tfq5qg4qc4AmwVlvv0oLiVAGB7enBSJ2x2DqQFi38=
+github.com/google/go-cmp v0.5.9/go.mod h1:17dUlkBOakJ0+DkrSSNjCkIjxS6bF9zb3elmeNGIjoY=
 github.com/google/gofuzz v1.0.0/go.mod h1:dBl0BpW6vV/+mYPU4Po3pmUjxk6FQPldtuIdl/M65Eg=
 github.com/google/uuid v1.3.1 h1:KjJaJ9iWZ3jOFZIf1Lqf4laDRCasjl0BCmnEGxkdLb4=
 github.com/google/uuid v1.3.1/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
