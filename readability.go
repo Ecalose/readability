@@ -3,8 +3,8 @@ package readability
 import (
 	"context"
 
-	"gitee.com/baixudong/cmd"
-	"gitee.com/baixudong/gson"
+	"github.com/gospider007/cmd"
+	"github.com/gospider007/gson"
 
 	_ "embed"
 )
