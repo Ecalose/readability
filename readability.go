@@ -26,10 +26,13 @@ type ParseOption struct {
 }
 
 func NewClient(ctx context.Context) (*Client, error) {
-	cli, err := cmd.NewJsClient(ctx, cmd.JsClientOption{
-		Script: readbilityJs,
-		Names:  []string{"clear"},
-	})
+	cli, err := cmd.NewJsClient(ctx)
+	if err != nil {
+		return nil, err
+	}
+	if err = cli.Exec(readbilityJs); err != nil {
+		return nil, err
+	}
 	return &Client{cmd: cli}, err
 }
 
