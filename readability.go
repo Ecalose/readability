@@ -30,7 +30,7 @@ func NewClient(ctx context.Context) (*Client, error) {
 	if err != nil {
 		return nil, err
 	}
-	if err = cli.Exec(readbilityJs); err != nil {
+	if err = cli.Exec(ctx, readbilityJs); err != nil {
 		return nil, err
 	}
 	return &Client{cmd: cli}, err
@@ -41,7 +41,7 @@ func (obj *Client) Parse(url, content string, options ...ParseOption) (*gson.Cli
 	if len(options) > 0 {
 		option = options[0]
 	}
-	return obj.cmd.Call("clear", url, content, option)
+	return obj.cmd.Call(context.TODO(), "clear", url, content, option)
 }
 func (obj *Client) Close() {
 	obj.cmd.Close()
