@@ -9,7 +9,6 @@ require (
 
 require (
 	github.com/andybalholm/brotli v1.1.0 // indirect
-	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/gospider007/conf v0.0.0-20231215085618-d6cf3c479074 // indirect
 	github.com/gospider007/kinds v0.0.0-20231024093643-7a4424f2d30e // indirect
 	github.com/gospider007/re v0.0.0-20240227100911-e27255e48eff // indirect
