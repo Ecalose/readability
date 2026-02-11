@@ -1,7 +1,6 @@
 module gitee.com/baixudong/readability
 
-go 1.25
-
+go 1.26.0
 require (
 	github.com/gospider007/cmd v0.0.0-20241216141652-cc0f439cbebc
 	github.com/gospider007/gson v0.0.0-20241216122450-fb66d0ba2a07
